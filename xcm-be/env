@@ -14,7 +14,7 @@
 # ENVIRONMENT
 #--------------------------------------------------------------------
 
-CI_ENVIRONMENT = development
+# CI_ENVIRONMENT = production
 
 #--------------------------------------------------------------------
 # APP
@@ -22,8 +22,8 @@ CI_ENVIRONMENT = development
 
 # app.baseURL = ''
 # If you have trouble with `.`, you could also use `_`.
-app_baseURL = 'https://localhost:8890/xcm/appstarter/public/'
-app.forceGlobalSecureRequests = true
+# app_baseURL = ''
+# app.forceGlobalSecureRequests = false
 # app.CSPEnabled = false
 
 #--------------------------------------------------------------------
